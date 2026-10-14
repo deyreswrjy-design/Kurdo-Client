@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.kurdo.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["SimpleOptionMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

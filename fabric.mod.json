@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "kurdo",
+  "version": "${version}",
+  "name": "Kurdo Client",
+  "description": "Clean client with HUD modules, fullbright, zoom and a drag-and-drop HUD editor.",
+  "authors": ["Kurdo"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.kurdo.client.KurdoClient"] },
+  "mixins": ["kurdo.mixins.json"],
+  "depends": { "fabricloader": ">=0.17.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
